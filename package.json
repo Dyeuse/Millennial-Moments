@@ -1,0 +1,24 @@
+{
+	"name": "millennial-moments",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sass-dev": "sass --watch ./sass/main.scss:./css/style.css --style expanded",
+		"sass-prod": "sass ./sass/main.scss:./css/style.css --style compressed"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Dyeuse/Millennial-Moments.git"
+	},
+	"author": "Dyeuse",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Dyeuse/Millennial-Moments/issues"
+	},
+	"homepage": "https://github.com/Dyeuse/Millennial-Moments#readme",
+	"devDependencies": {
+		"sass": "^1.52.1"
+	}
+}
