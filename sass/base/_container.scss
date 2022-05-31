@@ -1,4 +1,5 @@
 .container {
+	position: relative;
 	min-width: 300px;
 	max-width: 1600px;
 	border: 1px solid red;
@@ -10,5 +11,10 @@
 			height: 613px;
 			object-fit: cover;
 		}
+	}
+	&__wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 }
