@@ -1,8 +1,8 @@
-.container {
+.wrapper {
 	position: relative;
 	min-width: 300px;
-	max-width: 1600px;
-	border: 1px solid red;
+	max-width: 1502px;
+	margin: 0 auto;
 	&__image {
 		display: block;
 		z-index: -1;
@@ -12,9 +12,11 @@
 			object-fit: cover;
 		}
 	}
-	&__wrapper {
+	&__container {
 		position: absolute;
 		top: 0;
 		left: 0;
+		height: 100%;
+		width: 100%;
 	}
 }

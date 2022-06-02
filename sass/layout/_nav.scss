@@ -1,0 +1,16 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 4px;
+	margin-right: 22px;
+	&__search {
+		display: block;
+		width: clamp(21px, 2.4vw, 36px);
+		height: clamp(21px, 2.4vw, 36px);
+		margin-right: clamp(27px, 6.26vw, 94px);
+	}
+	@media screen and(max-width: 599px) {
+		display: none;
+	}
+}

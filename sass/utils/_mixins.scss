@@ -1,0 +1,10 @@
+@mixin burger-element($position: relative, $pxFromTop: none) {
+	@if ($position == absolute) {
+		content: '';
+	}
+	position: $position;
+	top: $pxFromTop;
+	height: 2px;
+	width: 25px;
+	background-color: $main-color;
+}

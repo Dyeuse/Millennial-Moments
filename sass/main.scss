@@ -1,5 +1,9 @@
-@import './vendors/reset';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './utils/variables';
+@import './utils/mixins.scss';
+@import './vendors/reset';
 @import './base/base';
-@import './base/container';
+@import './base/wrapper';
+@import './components/menu';
+@import './components/burger-menu';
+@import './layout/header';
+@import './layout/nav';
