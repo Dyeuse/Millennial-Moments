@@ -1,0 +1,19 @@
+.ranking {
+	display: flex;
+	flex-direction: column;
+	font-weight: 800;
+	font-size: clamp(15px, 1.67vw, 25px);
+	line-height: clamp(18px, 2vw, 30px);
+	letter-spacing: 0.1rem;
+	margin: 13px 0 0 13px;
+	&__link {
+		margin-top: clamp(9px, 1.2vw, 18px);
+		color: rgba(255, 255, 255, 0.46);
+		&--active {
+			color: #fff;
+		}
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}

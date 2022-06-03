@@ -1,0 +1,21 @@
+.social {
+	font-weight: 500;
+	font-size: clamp(12px, 1.33vw, 20px);
+	line-height: clamp(14px, 1.6vw, 24px);
+	letter-spacing: 0.15rem;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.5);
+	margin-left: 14px;
+
+	&__link {
+		writing-mode: vertical-rl;
+		white-space: nowrap;
+		&:first-child {
+			margin-top: clamp(87px, 9.99vw, 150px);
+			margin-bottom: clamp(15px, 2vw, 30px);
+		}
+		&:last-child {
+			margin-top: clamp(21px, 2.8vw, 42px);
+		}
+	}
+}
