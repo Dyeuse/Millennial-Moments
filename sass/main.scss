@@ -1,8 +1,7 @@
 @import './utils/variables';
 @import './utils/mixins.scss';
 
-@import './vendors/reset';
-
+@import './base/reset';
 @import './base/base';
 @import './base/wrapper';
 
