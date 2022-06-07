@@ -1,0 +1,47 @@
+.hero {
+	position: absolute;
+	top: clamp(100px, 9.25vw, 139px);
+	left: 30.89%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: clamp(175px, 46.4vw, 697px);
+	height: clamp(175px, 46.4vw, 697px);
+	border: 2px solid $line-color;
+	border-radius: 50%;
+	&__heading {
+		font-weight: 700;
+		font-size: clamp(15px, 3.33vw, 50px);
+		line-height: clamp(18px, 2vw, 30px);
+		text-align: center;
+		letter-spacing: 0.25rem;
+		text-transform: uppercase;
+		transform: rotate(-90deg);
+		margin-right: 15%;
+	}
+	&__main-line {
+		position: absolute;
+		top: 0;
+		left: calc(50% - 1px);
+		height: 100%;
+		width: 2px;
+		background-color: $line-color;
+	}
+	&__secondary-line {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		height: 2px;
+		width: 50%;
+		background-color: $line-color;
+	}
+	@media screen and (max-width: 599px) {
+		border: 1px solid $line-color;
+		&__main-line {
+			width: 1px;
+		}
+		&__secondary-line {
+			height: 1px;
+		}
+	}
+}
