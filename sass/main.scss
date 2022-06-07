@@ -1,12 +1,23 @@
 @import './utils/variables';
 @import './utils/mixins.scss';
+
 @import './vendors/reset';
+
 @import './base/base';
 @import './base/wrapper';
+
 @import './components/menu';
 @import './components/burger-menu';
 @import './components/ranking';
 @import './components/social';
+@import './components/ellipse';
+@import './components/video';
+@import './components/portrait';
+@import './components/btn';
+@import './components/slider';
+
 @import './layout/header';
 @import './layout/nav';
 @import './layout/sidebar';
+@import './layout/details';
+@import './layout/explanations';

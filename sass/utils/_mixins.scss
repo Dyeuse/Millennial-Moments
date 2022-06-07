@@ -1,4 +1,4 @@
-@mixin burger-element($position: relative, $pxFromTop: none) {
+@mixin burger-element($position: relative, $pxFromTop: unset) {
 	@if ($position == absolute) {
 		content: '';
 	}

@@ -6,6 +6,9 @@
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.5);
 	margin-left: 14px;
+	@media screen and(max-width: 399px) {
+		margin-left: 0;
+	}
 
 	&__link {
 		writing-mode: vertical-rl;

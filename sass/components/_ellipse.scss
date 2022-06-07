@@ -1,0 +1,17 @@
+.ellipse {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: clamp(29px, 3.86vw, 58px);
+	height: clamp(29px, 3.86vw, 58px);
+	background-color: #fff;
+	border-radius: 50%;
+	&--right img,
+	&--left img {
+		width: 37.93%;
+	}
+	&--play img {
+		width: 31.03%;
+		padding-left: 8.97%;
+	}
+}

@@ -1,0 +1,10 @@
+.btn {
+	border-style: none;
+	background-color: rgba(128, 128, 128, 0.51);
+	font-weight: 500;
+	font-size: clamp(12px, 1.33vw, 20px);
+	line-height: clamp(14px, 1.6vw, 24px);
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	padding: clamp(4px, 0.73vw, 11px) clamp(10px, 1.86vw, 28px);
+}
