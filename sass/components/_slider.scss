@@ -4,7 +4,7 @@
 	align-items: flex-end;
 	gap: clamp(10px, 1.27vw, 19px);
 	padding: clamp(13px, 1.67vw, 25px);
-	@media screen and(max-width: 899px) {
+	@media screen and(max-width: 599px) {
 		position: absolute;
 		padding: 0 clamp(10px, 1.27vw, 19px);
 	}
