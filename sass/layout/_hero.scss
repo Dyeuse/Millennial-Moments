@@ -1,23 +1,23 @@
 .hero {
 	position: absolute;
-	top: clamp(100px, 9.25vw, 139px);
+	top: clamp(100px, 9.26vw, 139px);
 	left: 30.89%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: clamp(175px, 46.4vw, 697px);
-	height: clamp(175px, 46.4vw, 697px);
+	width: clamp(255px, 46.4vw, 697px);
+	height: clamp(255px, 46.4vw, 697px);
 	border: 2px solid $line-color;
 	border-radius: 50%;
 	&__heading {
 		font-weight: 700;
-		font-size: clamp(15px, 3.33vw, 50px);
-		line-height: clamp(18px, 2vw, 30px);
+		font-size: clamp(20px, 3.33vw, 50px);
+		line-height: clamp(36px, 4.07vw, 61px);
 		text-align: center;
-		letter-spacing: 0.25rem;
+		letter-spacing: 0.25em;
 		text-transform: uppercase;
 		transform: rotate(-90deg);
-		margin-right: 15%;
+		margin-right: 14%;
 	}
 	&__main-line {
 		position: absolute;
