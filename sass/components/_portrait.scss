@@ -1,21 +1,31 @@
 .portrait {
 	display: flex;
 	&__image {
-		height: clamp(150px, 17.11vw, 257px);
+		width: clamp(150px, 17.12vw, 257px);
 	}
 	&__text {
-		width: clamp(120px, 28.76vw, 432px);
+		width: clamp(120px, 28.77vw, 432px);
 		text-transform: uppercase;
 		color: #000;
 		background-color: #e8e8e8;
-		padding-left: 2vw;
 		h2 {
 			font-weight: 500;
 			font-size: clamp(12px, 2.33vw, 35px);
-			line-height: clamp(25px, 2vw, 42px);
+			line-height: clamp(25px, 2.8vw, 42px);
 			letter-spacing: 0.05em;
-			padding: 2vw 2vw 2vw 0;
-			margin: 15px 2px 3px 2px;
+			margin-top: 12.7315%;
+			margin-left: 7.4074%;
+		}
+		@media screen and(max-width: 899px) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			h2 {
+				margin-top: 0;
+			}
+			.btn {
+				width: fit-content;
+			}
 		}
 	}
 }
