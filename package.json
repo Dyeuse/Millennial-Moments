@@ -4,9 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"sass-dev": "sass --watch ./sass/main.scss:./css/style.css --style expanded",
-		"sass-prod": "sass ./sass/main.scss:./css/style.css --style compressed"
+		"sass-prod": "sass ./sass/main.scss:./css/style.css --style compressed",
+		"prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
 	},
 	"repository": {
 		"type": "git",
@@ -18,7 +18,11 @@
 		"url": "https://github.com/Dyeuse/Millennial-Moments/issues"
 	},
 	"homepage": "https://github.com/Dyeuse/Millennial-Moments#readme",
+	"browserslist": "last 5 versions",
 	"devDependencies": {
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.14",
+		"postcss-cli": "^9.1.0",
 		"sass": "^1.52.1"
 	}
 }
