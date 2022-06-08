@@ -8,3 +8,9 @@
 	width: 25px;
 	background-color: $main-color;
 }
+
+@mixin device($size) {
+	@media screen and (max-width: map-get($breakpoints, $size)) {
+		@content;
+	}
+}

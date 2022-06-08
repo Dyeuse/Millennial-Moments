@@ -6,10 +6,9 @@
 	text-transform: uppercase;
 	color: rgba($main-color, 0.5);
 	margin-left: 14px;
-	@media screen and(max-width: 399px) {
+	@include device(tiny) {
 		margin-left: 0;
 	}
-
 	&__link {
 		writing-mode: vertical-rl;
 		white-space: nowrap;

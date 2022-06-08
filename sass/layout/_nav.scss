@@ -10,7 +10,7 @@
 		height: clamp(21px, 2.4vw, 36px);
 		margin-right: clamp(27px, 6.26vw, 94px);
 	}
-	@media screen and(max-width: 599px) {
+	@include device(small) {
 		display: none;
 	}
 }

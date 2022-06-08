@@ -7,7 +7,7 @@
 		display: block;
 		z-index: -1;
 		width: 100%;
-		@media screen and (max-width: 899px) {
+		@include device(medium) {
 			height: 613px;
 			object-fit: cover;
 		}

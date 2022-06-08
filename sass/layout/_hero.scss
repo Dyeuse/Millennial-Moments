@@ -35,7 +35,7 @@
 		width: 50%;
 		background-color: $line-color;
 	}
-	@media screen and (max-width: 599px) {
+	@include device(small) {
 		border: 1px solid $line-color;
 		&__main-line {
 			width: 1px;

@@ -1,14 +1,15 @@
 .burger-menu {
+	display: none;
 	@include burger-element();
 	margin-top: 19px;
 	margin-right: 22px;
-	@media screen and(min-width: 600px) {
-		display: none;
-	}
 	&::before {
 		@include burger-element(absolute, -9px);
 	}
 	&::after {
 		@include burger-element(absolute, 9px);
+	}
+	@include device(small) {
+		display: block;
 	}
 }
