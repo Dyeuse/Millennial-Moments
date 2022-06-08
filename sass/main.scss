@@ -3,7 +3,6 @@
 
 @import './base/reset';
 @import './base/base';
-@import './base/wrapper';
 
 @import './components/menu';
 @import './components/burger-menu';
@@ -15,6 +14,7 @@
 @import './components/btn';
 @import './components/slider';
 
+@import './layout/wrapper';
 @import './layout/header';
 @import './layout/nav';
 @import './layout/sidebar';
