@@ -8,9 +8,9 @@
 	margin: 13px 0 0 13px;
 	&__link {
 		margin-top: clamp(9px, 1.2vw, 18px);
-		color: rgba(255, 255, 255, 0.46);
+		color: rgba($main-color, 0.46);
 		&--active {
-			color: #fff;
+			color: $main-color;
 		}
 		&:first-child {
 			margin-top: 0;

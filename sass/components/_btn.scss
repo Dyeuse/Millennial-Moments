@@ -1,6 +1,6 @@
 .btn {
 	border-style: none;
-	background-color: rgba(128, 128, 128, 0.51);
+	background-color: $button-color;
 	font-weight: 500;
 	font-size: clamp(12px, 1.34vw, 20px);
 	line-height: clamp(14px, 1.6vw, 24px);

@@ -6,8 +6,8 @@
 	&__text {
 		width: clamp(120px, 28.77vw, 432px);
 		text-transform: uppercase;
-		color: #000;
-		background-color: #e8e8e8;
+		color: $secondary-color;
+		background-color: $text-bg-color;
 		h2 {
 			font-weight: 500;
 			font-size: clamp(12px, 2.33vw, 35px);
