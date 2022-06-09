@@ -5,8 +5,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: clamp(255px, 46.4vw, 697px);
-	height: clamp(255px, 46.4vw, 697px);
+	width: clamp(255px, 46.41vw, 697px);
+	height: clamp(255px, 46.41vw, 697px);
 	border: 2px solid $line-color;
 	border-radius: 50%;
 	&__heading {
@@ -17,7 +17,8 @@
 		letter-spacing: 0.25em;
 		text-transform: uppercase;
 		transform: rotate(-90deg);
-		margin-right: 14%;
+		margin-right: 13.5%;
+		margin-bottom: 2.2%;
 	}
 	&__main-line {
 		position: absolute;
