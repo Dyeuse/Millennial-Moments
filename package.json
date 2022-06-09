@@ -4,9 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"sass-dev": "sass --watch ./sass/main.scss:./css/style.css --style expanded",
-		"sass-prod": "sass ./sass/main.scss:./css/style.css --style compressed",
-		"prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+		"watch": "sass --watch ./sass/main.scss:./css/style.css --style expanded",
+		"compress": "sass ./sass/main.scss:./css/style.css --style compressed",
+		"prefix": "postcss --replace ./css/style.css --use autoprefixer",
+		"build": "npm run compress && npm run prefix"
 	},
 	"repository": {
 		"type": "git",
