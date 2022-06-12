@@ -1,4 +1,5 @@
 .btn {
+	position: relative;
 	border-style: none;
 	background-color: $button-color;
 	font-weight: 500;
@@ -9,4 +10,9 @@
 	margin-top: 7.6389%;
 	margin-left: 7.4074%;
 	padding: clamp(6px, 0.74vw, 11px) clamp(15px, 1.87vw, 28px);
+	transition-duration: 0.3s;
+	@include hover {
+		color: $main-color;
+		background-color: $button-color-hover;
+	}
 }

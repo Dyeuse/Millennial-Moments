@@ -1,15 +1,32 @@
 .burger-menu {
 	display: none;
-	@include burger-element();
-	margin-top: 19px;
 	margin-right: 22px;
-	&::before {
-		@include burger-element(absolute, -9px);
-	}
-	&::after {
-		@include burger-element(absolute, 9px);
-	}
+	background-color: transparent;
 	@include device(small) {
-		display: block;
+		display: flex;
+		height: min-content;
+		flex-direction: column;
+		gap: 8px;
+		padding-top: 10px;
+	}
+	&__line {
+		height: 2px;
+		width: 25px;
+		background-color: $main-color;
+		transition-duration: 0.3s;
+	}
+	&:hover {
+		cursor: pointer;
+	}
+	&:hover & {
+		&__line--one {
+			transform: translateX(-6px);
+		}
+		&__line--two {
+			transform: translateX(3px);
+		}
+		&__line--three {
+			transform: translateX(-6px);
+		}
 	}
 }

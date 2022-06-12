@@ -1,9 +1,4 @@
-@mixin burger-element($position: relative, $pxFromTop: unset) {
-	@if ($position == absolute) {
-		content: '';
-	}
-	position: $position;
-	top: $pxFromTop;
+@mixin burger-line() {
 	height: 2px;
 	width: 25px;
 	background-color: $main-color;
@@ -12,5 +7,22 @@
 @mixin device($size) {
 	@media screen and (max-width: map-get($breakpoints, $size)) {
 		@content;
+	}
+}
+
+@mixin hover {
+	&:hover {
+		cursor: pointer;
+		@content;
+	}
+}
+
+@mixin ellipse-content($width: 33%, $duration: 0.3s, $scale: 1.5) {
+	img {
+		width: $width;
+		transition-duration: $duration;
+	}
+	&:hover img {
+		transform: scale($scale);
 	}
 }

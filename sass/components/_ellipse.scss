@@ -6,12 +6,15 @@
 	height: clamp(29px, 3.87vw, 58px);
 	background-color: $main-color;
 	border-radius: 50%;
-	&--right img,
-	&--left img {
-		width: 37.93%;
+	@include hover;
+	&--right,
+	&--left {
+		@include ellipse-content($width: 37.93%);
 	}
-	&--play img {
-		width: 31.03%;
-		padding-left: 8.97%;
+	&--play {
+		@include ellipse-content($width: 31.03%, $scale: 1.4);
+		img {
+			padding-left: 8.97%;
+		}
 	}
 }

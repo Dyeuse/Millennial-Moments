@@ -3,12 +3,27 @@
 	top: clamp(100px, 9.26vw, 139px);
 	left: 30.89%;
 	display: flex;
+	opacity: 0;
 	justify-content: center;
 	align-items: center;
 	width: clamp(255px, 46.41vw, 697px);
 	height: clamp(255px, 46.41vw, 697px);
 	border: 2px solid $line-color;
 	border-radius: 50%;
+	animation: twist 1.7s linear forwards;
+	@keyframes twist {
+		0% {
+			transform: rotate(0);
+			opacity: 0;
+		}
+		50% {
+			opacity: 0.3;
+		}
+		100% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+	}
 	&__heading {
 		font-weight: 700;
 		font-size: clamp(20px, 3.33vw, 50px);

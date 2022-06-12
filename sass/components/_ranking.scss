@@ -9,6 +9,10 @@
 	&__link {
 		margin-top: clamp(9px, 1.2vw, 18px);
 		color: rgba($main-color, 0.46);
+		transition-duration: 0.3s;
+		@include hover {
+			transform: translateX(30%) scale(1.2);
+		}
 		&--active {
 			color: $main-color;
 		}
