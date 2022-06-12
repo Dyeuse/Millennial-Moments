@@ -15,9 +15,7 @@
 		width: 25px;
 		background-color: $main-color;
 	}
-	&:hover {
-		cursor: pointer;
-	}
+	@include hover;
 	&:hover & {
 		&__line--one {
 			transform: translateX(-6px);

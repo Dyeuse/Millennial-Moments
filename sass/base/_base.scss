@@ -1,13 +1,5 @@
 body {
-	background-color: $main-bg-color;
-	background-image: repeating-linear-gradient(
-		45deg,
-		$secondary-bg-color 0,
-		$secondary-bg-color 0.4px,
-		$main-bg-color 0,
-		$main-bg-color 50%
-	);
-	background-size: 4px 4px;
+	background-color: $secondary-color;
 	color: $main-color;
 	font-family: Inter;
 	font-style: normal;
