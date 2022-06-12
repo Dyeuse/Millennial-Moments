@@ -1,14 +1,14 @@
 .ellipse {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	width: clamp(29px, 3.87vw, 58px);
-	height: clamp(29px, 3.87vw, 58px);
-	background-color: $main-color;
+	justify-content: center;
 	border-radius: 50%;
+	height: clamp(29px, 3.87vw, 58px);
+	width: clamp(29px, 3.87vw, 58px);
+	background-color: $main-color;
 	@include hover;
-	&--right,
-	&--left {
+	&--left,
+	&--right {
 		@include ellipse-content($width: 37.93%);
 	}
 	&--play {

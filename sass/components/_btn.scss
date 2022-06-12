@@ -1,16 +1,16 @@
 .btn {
 	position: relative;
-	border-style: none;
-	background-color: $button-color;
-	font-weight: 500;
-	font-size: clamp(12px, 1.34vw, 20px);
-	line-height: clamp(14px, 1.6vw, 24px);
-	letter-spacing: 0.05em;
-	text-transform: capitalize;
-	margin-top: 7.6389%;
-	margin-left: 7.4074%;
-	padding: clamp(6px, 0.74vw, 11px) clamp(15px, 1.87vw, 28px);
 	transition-duration: 0.3s;
+	border-style: none;
+	margin-left: 7.4074%;
+	margin-top: 7.6389%;
+	padding: clamp(6px, 0.74vw, 11px) clamp(15px, 1.87vw, 28px);
+	background-color: $button-color;
+	font-size: clamp(12px, 1.34vw, 20px);
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	line-height: clamp(14px, 1.6vw, 24px);
+	text-transform: capitalize;
 	@include hover {
 		color: $main-color;
 		background-color: $button-color-hover;

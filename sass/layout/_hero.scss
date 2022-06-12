@@ -1,53 +1,53 @@
 .hero {
 	position: absolute;
-	top: clamp(100px, 9.26vw, 139px);
 	left: 30.89%;
+	top: clamp(100px, 9.26vw, 139px);
 	display: flex;
 	opacity: 0;
-	justify-content: center;
 	align-items: center;
-	width: clamp(255px, 46.41vw, 697px);
-	height: clamp(255px, 46.41vw, 697px);
+	justify-content: center;
+	animation: twist 1.7s linear forwards;
 	border: 2px solid $line-color;
 	border-radius: 50%;
-	animation: twist 1.7s linear forwards;
+	height: clamp(255px, 46.41vw, 697px);
+	width: clamp(255px, 46.41vw, 697px);
 	@keyframes twist {
 		0% {
-			transform: rotate(0);
 			opacity: 0;
+			transform: rotate(0);
 		}
 		50% {
 			opacity: 0.3;
 		}
 		100% {
-			transform: rotate(360deg);
 			opacity: 1;
+			transform: rotate(360deg);
 		}
 	}
 	&__heading {
-		font-weight: 700;
+		transform: rotate(-90deg);
+		margin-bottom: 2.2%;
+		margin-right: 13.5%;
 		font-size: clamp(20px, 3.33vw, 50px);
+		font-weight: 700;
+		letter-spacing: 0.25em;
 		line-height: clamp(36px, 4.07vw, 61px);
 		text-align: center;
-		letter-spacing: 0.25em;
 		text-transform: uppercase;
-		transform: rotate(-90deg);
-		margin-right: 13.5%;
-		margin-bottom: 2.2%;
 	}
 	&__main-line {
 		position: absolute;
-		top: 0;
-		left: calc(50% - 1px);
 		height: 100%;
+		left: calc(50% - 1px);
+		top: 0;
 		width: 2px;
 		background-color: $line-color;
 	}
 	&__secondary-line {
 		position: absolute;
-		top: 50%;
-		left: 0;
 		height: 2px;
+		left: 0;
+		top: 50%;
 		width: 50%;
 		background-color: $line-color;
 	}

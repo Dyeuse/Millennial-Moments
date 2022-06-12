@@ -1,8 +1,8 @@
 .slider {
 	display: flex;
-	justify-content: center;
 	align-items: flex-end;
 	gap: clamp(10px, 1.27vw, 19px);
+	justify-content: center;
 	padding: clamp(13px, 1.67vw, 25px);
 	@include device(small) {
 		position: absolute;

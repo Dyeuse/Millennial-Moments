@@ -2,14 +2,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 4px;
 	margin-right: 22px;
+	margin-top: 4px;
 	&__search {
 		display: block;
-		width: clamp(21px, 2.4vw, 36px);
+		transition-duration: 0.3s;
 		height: clamp(21px, 2.4vw, 36px);
 		margin-right: clamp(27px, 6.26vw, 94px);
-		transition-duration: 0.3s;
+		width: clamp(21px, 2.4vw, 36px);
 		@include hover {
 			transform: scale(1.3);
 		}

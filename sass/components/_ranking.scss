@@ -1,15 +1,15 @@
 .ranking {
 	display: flex;
 	flex-direction: column;
-	font-weight: 800;
-	font-size: clamp(15px, 1.67vw, 25px);
-	line-height: clamp(18px, 2vw, 30px);
-	letter-spacing: 0.1em;
 	margin: 13px 0 0 13px;
+	font-size: clamp(15px, 1.67vw, 25px);
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	line-height: clamp(18px, 2vw, 30px);
 	&__link {
+		transition-duration: 0.3s;
 		margin-top: clamp(9px, 1.2vw, 18px);
 		color: rgba($main-color, 0.46);
-		transition-duration: 0.3s;
 		@include hover {
 			transform: translateX(30%) scale(1.2);
 		}

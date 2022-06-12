@@ -19,8 +19,8 @@
 
 @mixin ellipse-content($width: 33%, $duration: 0.3s, $scale: 1.5) {
 	img {
-		width: $width;
 		transition-duration: $duration;
+		width: $width;
 	}
 	&:hover img {
 		transform: scale($scale);

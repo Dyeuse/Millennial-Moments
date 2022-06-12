@@ -5,16 +5,16 @@
 	}
 	&__text {
 		width: clamp(120px, 28.77vw, 432px);
-		text-transform: uppercase;
-		color: $secondary-color;
 		background-color: $text-bg-color;
+		color: $secondary-color;
+		text-transform: uppercase;
 		h2 {
-			font-weight: 500;
-			font-size: clamp(12px, 2.34vw, 35px);
-			line-height: clamp(25px, 2.8vw, 42px);
-			letter-spacing: 0.05em;
-			margin-top: 12.7315%;
 			margin-left: 7.4074%;
+			margin-top: 12.7315%;
+			font-size: clamp(12px, 2.34vw, 35px);
+			font-weight: 500;
+			letter-spacing: 0.05em;
+			line-height: clamp(25px, 2.8vw, 42px);
 		}
 		@include device(medium) {
 			display: flex;
