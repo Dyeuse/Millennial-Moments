@@ -8,7 +8,7 @@ Template : <ins>Heta Patel</ins>
 
 <img src="./media/screenshot.png" alt="Screenshot of the final result" style="width: 600px"/>
 
-[===> Display the online version <===](millennial-moments.netlify.app)
+[===> Afficher la version en ligne <===](https://millennial-moments.netlify.app/)
 
 ## Description
 
